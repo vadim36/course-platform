@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -14,4 +20,26 @@ body {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+}
+
+.header {
+  width: 100vw;
+  height: 7.5vh;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.modal {
+  position: absolute;
+  inset: 40% 35%;
+  border: 1px solid #000;
+  border-radius: .25rem;
+  min-width: 35vw;
 }
