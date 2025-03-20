@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid #000;
+  padding: 0 .75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
